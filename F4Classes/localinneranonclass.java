@@ -15,7 +15,7 @@ class Outer { // Defines a class named "Outer"
             }
         }; // Semicolon marks the end of the anonymous inner class declaration
 
-        // Here we are writing a comment to explain the presence of the semicolon
+        m.display(); // Call the "display" method of the anonymous inner class
     }
 }
 

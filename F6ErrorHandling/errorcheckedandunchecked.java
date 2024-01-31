@@ -15,7 +15,7 @@ public class errorcheckedandunchecked { // Defines a class named "errorcheckedan
             throw new LowBalanceException(); // Throws a custom checked exception "LowBalanceException"
         } catch (LowBalanceException e) { // Catches the custom checked exception "LowBalanceException"
             System.out.println(e); // Prints the custom error message returned by the "toString" method of
-                                   // "LowBalanceException"
+                             // "LowBalanceException"
         }
     }
 

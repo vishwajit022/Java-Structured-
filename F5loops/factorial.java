@@ -24,8 +24,10 @@ public class factorial { // Defines a class named "factorial"
             // i=4, b=6*4=24
             // i=5, b=24*5=120
             // After the loop, 'b' will store the factorial of 'a' (120)
+            System.out.println(b);
         }
 
+        System.out.println("FInal Calculated answer is this");
         System.out.println(b); // Print the calculated factorial value to the console
 
     }

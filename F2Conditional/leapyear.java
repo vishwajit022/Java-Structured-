@@ -11,9 +11,9 @@ public class leapyear { // Defines a class named "leapyear"
         int y = sc.nextInt(); // Reads an integer from the user input and stores it in the variable "y"
 
         // Check if the value of "y" is a leap year using the conditions: (y % 4 == 0)
-        // and ((y % 100 == 0 && y % 400 == 0))
-        if (y % 4 == 0 && y % 100 == 0 && y % 400 == 0) {
-            System.out.println("The year is Leap year"); // If "y" is a leap year, print "The year is Leap year"
+        // and ((y % 100 != 0 || y % 400 == 0))
+        if (y % 4 == 0 && (y % 100 != 0 || y % 400 == 0)) {
+            System.out.println("The year is a Leap year"); // If "y" is a leap year, print "The year is a Leap year"
         } else {
             System.out.println("Not a Leap Year"); // If "y" is not a leap year, print "Not a Leap Year"
         }

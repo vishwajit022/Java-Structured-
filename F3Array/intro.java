@@ -15,10 +15,15 @@ public class intro { // Defines a class named "intro"
 
         // Traversing an array
 
-        for (int i = 0; i <= A.length; i++) { // Loop to traverse the array "A" (note the incorrect condition i <=
+        try {
+             for (int i = 0; i <= A.length; i++) { // Loop to traverse the array "A" (note the incorrect condition i <=
                                               // A.length, it should be i < A.length)
             System.out.println(B[i]); // Print the element at index "i" in the array "B"
         }
 
+        } catch (Exception e) {
+            System.out.print(e);
+        }
+       
     }
 }

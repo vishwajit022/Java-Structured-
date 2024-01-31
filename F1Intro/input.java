@@ -8,6 +8,7 @@ public class input { // Defines a class named "input"
 
         // Display a prompt asking the user to enter two numbers
         System.out.println("Enter two numbers");
+         System.out.println(arg[0]);
 
         // Create a new Scanner object to read user input from the console
         Scanner sc = new Scanner(System.in);
@@ -23,6 +24,7 @@ public class input { // Defines a class named "input"
 
         // Perform addition of the two numbers and store the result in variable "c"
         c = a + b;
+       
 
         // Display the result (sum of the two numbers) to the console
         System.out.println(c);

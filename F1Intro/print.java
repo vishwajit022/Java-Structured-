@@ -10,7 +10,7 @@ public class print { // Defines a class named "print"
         char v = 'v'; // Declare and initialize a character variable "v" with the value 'v'
         float f = 10.2f; // Declare and initialize a floating-point variable "f" with the value 10.2
 
-        System.out.print("Hello"); // Prints the string "Hello" without a newline character
+        System.out.println("Hello"); // Prints the string "Hello" without a newline character
         System.out.println("Hello"); // Prints the string "Hello" and moves to the next line
         System.out.println("Hello"); // Prints the string "Hello" and moves to the next line
 
@@ -31,7 +31,8 @@ public class print { // Defines a class named "print"
         // placeholders.
 
         // The above code will output:
-        // HelloHello
+        // Hello
+        //Hello
         // Hello
         // Hello 10 v 10.2
         // Java

@@ -2,12 +2,10 @@ package F4Classes; // Declares the package name "Classes"
 
 class Outer { // Defines a class named "Outer"
     class Inner { // Defines a nested class named "Inner" within the "Outer" class
-
         // Method to display a message indicating that it's inside the "Inner" class
         void Display() {
             System.out.println("Print Inner Class");
         }
-
     }
 
     // Method in the "Outer" class to create an instance of the "Inner" class and
